@@ -192,3 +192,12 @@ Il faut penser à mettre une barrière de synchronization une fois le transfert 
 
 4. Pour une convolution avec un filtre de largeur et hauteur 5, combien de fois chaque pixel de l'image doit-il être lu ?
 5. Quel est le speedup par rapport aux étapes 0 et 1 ?
+
+
+
+# TP Partie 3 : Réduction d'un vecteur de grande taille
+
+
+En suivant les instructions du cours, complétez le code dans *3-Reduction/src/Reduce.cu*.
+
+
