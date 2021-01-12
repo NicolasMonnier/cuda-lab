@@ -102,6 +102,9 @@
 
 #include "utils.h"
 
+/************************************************************************************
+                                        EXERCISE 1
+*************************************************************************************/
 __global__
 void gaussian_blur_simple(const unsigned char* const inputChannel,
         unsigned char* const outputChannel,
@@ -133,6 +136,10 @@ void gaussian_blur_simple(const unsigned char* const inputChannel,
 
 }
 
+
+/************************************************************************************
+                                        EXERCISE 2
+*************************************************************************************/
 __constant__ float filter_constant[FILTER_WIDTH * FILTER_WIDTH];
 __global__
 void gaussian_blur_constant_memory(const unsigned char* const inputChannel,
@@ -149,6 +156,10 @@ void gaussian_blur_constant_memory(const unsigned char* const inputChannel,
 
 }
 
+
+/************************************************************************************
+                                        EXERCISE 3
+*************************************************************************************/
 __global__
 void gaussian_blur_shared_memory(const unsigned char* const inputChannel,
         unsigned char* const outputChannel,
